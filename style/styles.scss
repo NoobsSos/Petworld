@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html, h1, h2, h3, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.no-bg {
+    background: none;
+    border: none;
+
+    font-weight: 400;
+    font-size: 18px;
+    
+    & a {
+        color: #2D2D2D;
+    }
+}
+
+.blue-bg {
+    background: #3366FF;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 55px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    text-align: center;
+
+
+    & a {
+        color: #FFFFFF;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.main__content {
+    padding: 0 100px;
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background: #F7F5FD;
+    
+    & .picture {
+        padding-bottom: 70px;
+    }
+
+    & .title {
+        max-width: 390px;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 90px;
+    
+        color: #2D2D2D;
+    }
+
+    & .description {
+        max-width: 400px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+    
+        color: #2D2D2D;
+        opacity: 0.4;
+    }
+
+    & .yellow-bg {
+        width: 150px;
+        height: 55px;
+        border: none;
+        border-radius: 10px;
+        background: #F8D57E;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        
+        & a {
+            color: #2D2D2D;
+        }
+    }
+}
+
+.another__content {
+    background: #F2FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .video {
+        padding: 70px 0; 
+    }
+}
+
+.partners {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.card {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__logo {
+        margin-bottom: 40px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+
+        color: #2D2D2D;
+    }
+
+    &__describe {
+        max-width: 190px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 32px;
+        text-align: center;
+    
+        color: #2D2D2D;
+        opacity: 0.7;
+    }
+}
+
+.opinion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background: #ECE7FB;
+
+}
+
+.person__picture {
+}
+.thought {
+    padding-left: 60px;
+}
+.text {
+    max-width: 420px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 40px;
+
+    color: #2D2D2D;
+    
+}
+.name {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    
+    color: #2D2D2D;
+    
+    opacity: 0.7;
+}
+
+.footer__content {
+    padding: 0 100px;
+    padding-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background: #FCFAF5;    
+    & .picture {
+        padding-bottom: 70px;
+    }
+
+    & .title {
+        max-width: 390px;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 90px;
+    
+        color: #2D2D2D;
+    }
+
+    & .description {
+        max-width: 400px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+    
+        color: #2D2D2D;
+        opacity: 0.4;
+    }
+
+    & .yellow-bg {
+        width: 150px;
+        height: 55px;
+        border: none;
+        border-radius: 10px;
+        background: #F8D57E;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        
+        & a {
+            color: #2D2D2D;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .main__content {
+        flex-direction: column-reverse;
+        padding: 0;
+        justify-content: center;
+
+        
+        & .title {
+            padding-top: 100px;
+            padding-bottom: 40px;
+            max-width: 100%;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 60px;
+            /* or 120% */
+            text-align: center;
+            
+            color: #2D2D2D;
+            
+        }
+
+        & .description {
+            max-width: 100%;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 32px;
+            padding-bottom: 40px;
+            /* or 178% */
+            
+            text-align: center;
+            color: #2D2D2D;
+            
+            opacity: 0.7;
+        }
+
+        & .yellow-bg {
+            margin-bottom: 30px;
+            margin-left: 112px;
+        }
+
+        & .dogpicture {
+            width: 100%;
+        }
+    }
+
+    .video {
+        margin-left: 30px;
+    }
+    
+    .videopicture {
+        width: 95%;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+
+        & .partner {
+            padding-right: 10px;
+            padding-left: 0;
+            padding-bottom: 15px;
+        }
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+
+        &__logo {
+            padding-top: 50px;
+            padding-bottom: 0;
+        }
+    }
+
+    .opinion {
+        display: none;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+        padding: 0;
+        justify-content: center;
+
+        
+        & .title {
+            padding-top: 100px;
+            padding-bottom: 40px;
+            max-width: 100%;
+            font-weight: 600;
+            font-size: 50px;
+            line-height: 60px;
+            /* or 120% */
+            text-align: center;
+            
+            color: #2D2D2D;
+            
+        }
+
+        & .description {
+            max-width: 100%;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 32px;
+            padding-bottom: 40px;
+            /* or 178% */
+            
+            text-align: center;
+            color: #2D2D2D;
+            
+            opacity: 0.7;
+        }
+
+        & .yellow-bg {
+            margin-bottom: 30px;
+            margin-left: 112px;
+        }
+
+        & .dogpicture {
+            width: 100%;
+        }
+    }
+}

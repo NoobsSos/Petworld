@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html, h1, h2, h3, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: #b1afdb;
+  background: linear-gradient(354deg, #b1afdb 52%, #d28fba 69%);
+}
+
+.loginform {
+  background: #ecd7d7;
+  background: linear-gradient(354deg, #ecd7d7 26%, #8d88fa 76%, #e6b1d3 100%);
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login {
+  padding-top: 100px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 58px;
+  letter-spacing: 0.035em;
+  color: #000000;
+}
+
+.title span {
+  color: orangered;
+}
+
+.loginimg {
+  padding-bottom: 53px;
+}
+
+.typesOfLogin {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 120px;
+  width: 180px;
+  height: 60px;
+  border: 3px solid #162231;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 48px;
+  letter-spacing: 0.11em;
+  color: #000000;
+}
+
+.googlepic {
+  width: 43px;
+  height: 43px;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+
+.facebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.or {
+  padding-left: 219px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 48px;
+  letter-spacing: 0.11em;
+  color: #000000;
+}
+
+.email {
+  font-family: 'Inria Serif';
+  height: 60px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.35em;
+  color: #152235;
+  border: 5px solid #1A1919;
+  -webkit-box-shadow: 5px 9px 2px 9px #000000;
+          box-shadow: 5px 9px 2px 9px #000000;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.already {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.095em;
+  color: #342424;
+}
+
+.already__link {
+  color: #f32883;
+  text-decoration: none;
+}
+
+.signup__button {
+  border: 5px solid #1A1919;
+  -webkit-box-shadow: 5px 9px 2px 9px #000000;
+          box-shadow: 5px 9px 2px 9px #000000;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 240px;
+  padding-left: 10px;
+}
+
+.signup__link {
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.35em;
+  color: #152235;
+  text-decoration: none;
+}
+
+.login__button {
+  border: 5px solid #1A1919;
+  -webkit-box-shadow: 5px 9px 2px 9px #000000;
+          box-shadow: 5px 9px 2px 9px #000000;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 305px;
+  padding-left: 10px;
+}
+
+.login__link {
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.35em;
+  color: #152235;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 90%;
+  }
+  .loginpic {
+    display: none;
+  }
+  .email {
+    font-size: 23px;
+  }
+  .login {
+    padding-bottom: 250px;
+  }
+  .login__button {
+    margin-left: 0;
+  }
+  .wrapper {
+    height: 50%;
+  }
+  .already {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=login.css.map */
